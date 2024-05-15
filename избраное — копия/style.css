@@ -1,0 +1,47 @@
+.gallery {
+    display: inline-block;
+    
+}
+
+.photo {
+    position: relative;
+    width: 150px;
+}
+
+.photo img {
+    max-width: 200%;
+    display: block; 
+    
+
+}
+.section{
+    text-align: center;
+    background: rgb(255, 14, 14);
+    color: aliceblue;
+    height: 30PX;
+}
+
+
+.heart {
+    top: 5px;
+    right: 1px;
+    color: rgb(0, 0, 0);
+    margin-left: 320px;
+    margin-top: 200px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.btn1 {
+    border: none;
+    background: none;
+    color: red;
+    width: 200px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.btn1:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 
